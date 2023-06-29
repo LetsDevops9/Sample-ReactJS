@@ -7,7 +7,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    echo ****************** Install NPM & Yarn from template *********************
+    echo "****************** Install NPM & Yarn from template *********************"
     npm install -g yarn
     yarn install
   displayName: 'npm install yarn'
