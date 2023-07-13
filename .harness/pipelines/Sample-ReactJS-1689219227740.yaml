@@ -44,7 +44,7 @@ pipeline:
                     connectorRef: account.harnessImage
                     repo: test-app
                     tags:
-                      - node
+                      - "1.0"
           platform:
             arch: Amd64
             os: Linux
