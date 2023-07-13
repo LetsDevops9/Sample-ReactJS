@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Sample_ReactJS_1689219232352-pr-trigger-input-set
+  identifier: Build_Sample_ReactJS_1689219232352prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Test
+  pipeline:
+    identifier: Build_Sample_ReactJS_1689219232352
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
